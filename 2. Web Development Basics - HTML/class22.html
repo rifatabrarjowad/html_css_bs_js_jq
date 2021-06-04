@@ -6,26 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table {
+            width: 300px;
+            height: 200px;
+            border: 2px solid cyan;
+            border-spacing: 15px;
+        }
+
+        td,
+        th {
+            border: 2px solid;
+            padding: 25px;
+        }
+
+        tr {
+            text-align: center;
+        }
+    </style>
+
 </head>
 
 <body>
     <div class="teb">
-        <table style="width:100%;border:2px">
-            <tr>
-                <th>Firstname</th>
-                <th>Lastname</th>
-                <th>Age</th>
-            </tr>
-            <tr>
-                <td>Jill</td>
-                <td>Smith</td>
-                <td>50</td>
-            </tr>
-            <tr>
-                <td>Eve</td>
-                <td>Jackson</td>
-                <td>94</td>
-            </tr>
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>name</th>
+                    <th>roll</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>007</td>
+                    <td>devhack</td>
+                    <td>devhack007</td>
+                </tr>
+                <tr>
+                    <td>006</td>
+                    <td>devhack</td>
+                    <td>devhack006</td>
+                </tr>
+            </tbody>
         </table>
     </div>
 </body>
