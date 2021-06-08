@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    /* font-family: 'Viaoda Libre', cursive; */
+    /* font-family: 'Lobster', cursive; */
+  
+}
+.log_in {
+    background: white;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 36px;
+    box-shadow: -8px -6px 7px 13px;
+    height: 300px;
+}
+body{
+    background-color: aqua;
+}
+.mood_butt {
+    padding: 20px;
+}
+span.logIn {
+    padding: 12px;
+}
+a.axe_ntn {
+    color: black;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    transition: border-bottom 0.6s  ;
+}
+a.axe_ntn:hover{
+    border-bottom: 5px solid aqua;
+   
+}
+.inp {
+    padding: 15px;
+}
+input.log_mail {
+    margin: 12px;
+    padding: 12px 39px;
+    text-align: center;
+    background: #f6f6f6;
+    color: black;
+    /* box-shadow: inset -12px -7px 2px; */
+    border: 2px solid white;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    transition: background 0.6s
+}
+input.log_mail:hover{
+    background: aqua;
+    color: black;
+}
+input#sub_log {
+    padding: 6px 111px;
+    border: 2px solid #00ff1f;
+    background: #47ffff;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+input#sub_log:hover {
+    background: #5fffff;
+    border: 2px solid #82f95e;
+}

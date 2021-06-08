@@ -13,13 +13,19 @@
     <div>
         <div class="log_in">
             <div class="mood_butt">
-                <span class="logIn">SING IN</span>
-                <span class="logReg">LOG IN</span>
-                <span class="logFor"> FORGET</span>
+                <span class="logIn"> <a href="" class="axe_ntn">SING IN</a> </span>
+                <span class="logReg logIn"><a href="" class="axe_ntn">LOG IN</a> </span>
+                <span class="logFor logIn"> <a href="" class="axe_ntn">FORGET</a> </span>
             </div>
             <div class="acc_info">
-                <input type="email" name="email" id="log_mail">
-                <input type="password" name="password" id="log_mail">
+                <form action="">
+                    <div class="inp">
+                        <input type="email" name="email" class="log_mail"><br>
+                        <input type="password" name="password" class="log_mail log_mail"><br>
+                    </div>
+
+                    <input type="submit" id="sub_log" value="submit">
+                </form>
             </div>
             <div class="forget_op"></div>
         </div>
